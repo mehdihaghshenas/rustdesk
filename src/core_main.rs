@@ -171,7 +171,7 @@ pub fn core_main() -> Option<Vec<String>> {
     init_plugins(&args);
     
     log::info!("Run TechPos Custom Config");    
-    crate::ui_interface::set_option("key".into(), "8GuJxK08FVNMYgUdo4GdiJFlQRS4ExSrsbr0hIJcaGQ=".to_string());
+    crate::ui_interface::set_option("key".into(), "StrongKey".to_string());
     crate::ui_interface::set_option(
         "custom-rendezvous-server".into(),
         "techdesk.techpos.ca".to_string(),
